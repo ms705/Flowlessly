@@ -1,0 +1,243 @@
+\hypertarget{classflowlessly_1_1Graph}{\section{flowlessly\-:\-:\-Graph \-Class \-Reference}
+\label{classflowlessly_1_1Graph}\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classflowlessly_1_1Graph_ab8f10dc0cfb341e62b36c8933fd34206}{\-Graph} (\hyperlink{classflowlessly_1_1Statistics}{\-Statistics} \&stats)
+\item 
+void \hyperlink{classflowlessly_1_1Graph_a00102825c05a2f8218c702fa8d215e1f}{read\-Graph} (const string \&graph\-\_\-file)
+\item 
+\hypertarget{classflowlessly_1_1Graph_a7a0f23201c8a6a05dace38b98ce8c02e}{void {\bfseries log\-Graph} ()}\label{classflowlessly_1_1Graph_a7a0f23201c8a6a05dace38b98ce8c02e}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a4c78cb6fdd88e0ac91b7d3a46ef15fba}{void {\bfseries log\-Admisible\-Graph} ()}\label{classflowlessly_1_1Graph_a4c78cb6fdd88e0ac91b7d3a46ef15fba}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a887e77fd7799609b877b02f9c42bbd5f}{void {\bfseries log\-Residual\-Graph} ()}\label{classflowlessly_1_1Graph_a887e77fd7799609b877b02f9c42bbd5f}
+
+\item 
+void \hyperlink{classflowlessly_1_1Graph_a009b8c032eeb3c5cdd9f8985461329f1}{write\-Flow\-Graph} (const string \&out\-\_\-graph\-\_\-file)
+\item 
+void \hyperlink{classflowlessly_1_1Graph_aff0bd13f59bf394ddd6a8137fc1c92e0}{write\-Graph} (const string \&out\-\_\-graph\-\_\-file)
+\item 
+\hypertarget{classflowlessly_1_1Graph_abd66fe2179d2745978276b53dcf8b2fd}{uint32\-\_\-t {\bfseries get\-\_\-num\-\_\-nodes} () const }\label{classflowlessly_1_1Graph_abd66fe2179d2745978276b53dcf8b2fd}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_aa673b4373b56da6e41fbe9b054af2ec5}{vector$<$ int32\-\_\-t $>$ \& {\bfseries get\-\_\-nodes\-\_\-demand} ()}\label{classflowlessly_1_1Graph_aa673b4373b56da6e41fbe9b054af2ec5}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_ab433ff1102bc8c98b7465eb99b3e81f8}{vector$<$ int64\-\_\-t $>$ \& {\bfseries get\-\_\-potential} ()}\label{classflowlessly_1_1Graph_ab433ff1102bc8c98b7465eb99b3e81f8}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a37fe752749b6a35424e2f2f4fa5857e5}{vector$<$ map$<$ uint32\-\_\-t, \hyperlink{classflowlessly_1_1Arc}{\-Arc} $\ast$ $>$ $>$ \& {\bfseries get\-\_\-arcs} ()}\label{classflowlessly_1_1Graph_a37fe752749b6a35424e2f2f4fa5857e5}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a85c8535e175ce5a190aa14f6c3b57ecc}{vector$<$ map$<$ uint32\-\_\-t, \hyperlink{classflowlessly_1_1Arc}{\-Arc} $\ast$ $>$ $>$ \& {\bfseries get\-\_\-admisible\-\_\-arcs} ()}\label{classflowlessly_1_1Graph_a85c8535e175ce5a190aa14f6c3b57ecc}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a8d44f00e2c012a1b95b7a313214dde2c}{list$<$ \hyperlink{classflowlessly_1_1Arc}{\-Arc} $\ast$ $>$ \& {\bfseries get\-\_\-fixed\-\_\-arcs} ()}\label{classflowlessly_1_1Graph_a8d44f00e2c012a1b95b7a313214dde2c}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_aa1cb3aed6dd0113962dad5ae04277f67}{set$<$ uint32\-\_\-t $>$ \& {\bfseries get\-\_\-source\-\_\-nodes} ()}\label{classflowlessly_1_1Graph_aa1cb3aed6dd0113962dad5ae04277f67}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a3e4fcd56f3de5eee55b957f4cbaf80a7}{set$<$ uint32\-\_\-t $>$ \& {\bfseries get\-\_\-sink\-\_\-nodes} ()}\label{classflowlessly_1_1Graph_a3e4fcd56f3de5eee55b957f4cbaf80a7}
+
+\item 
+bool \hyperlink{classflowlessly_1_1Graph_aa3da1f87177c687ee1465356f187e238}{check\-Flow} (const string \&flow\-\_\-file)
+\item 
+bool \hyperlink{classflowlessly_1_1Graph_a3ad531de1b848126c46bbf986b6c2f2b}{check\-Eps\-Optimality} (int64\-\_\-t eps)
+\item 
+bool \hyperlink{classflowlessly_1_1Graph_ad07412381c17777348eabf31801d7877}{check\-Valid} ()
+\item 
+bool \hyperlink{classflowlessly_1_1Graph_ad23662b6dc5949274015b2b351208a4f}{check\-Equal} (\hyperlink{classflowlessly_1_1Graph}{\-Graph} \&other)
+\item 
+bool \hyperlink{classflowlessly_1_1Graph_add8d90cc2601bdab3e623c548d77a84d}{has\-Sink\-And\-Source} ()
+\item 
+bool \hyperlink{classflowlessly_1_1Graph_a1794e96397b2ae9ea8d6a7bd4a7aa79b}{remove\-Sink\-And\-Source} ()
+\item 
+bool \hyperlink{classflowlessly_1_1Graph_af250c51c274e3e6abefe5dbf4129e187}{add\-Sink\-And\-Source} ()
+\item 
+\hypertarget{classflowlessly_1_1Graph_a6d694b81e253af711a36419880255521}{void {\bfseries remove\-Node} (uint32\-\_\-t node\-\_\-id)}\label{classflowlessly_1_1Graph_a6d694b81e253af711a36419880255521}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_ae0188e508ea5ecf9b11600f75b1db8b6}{uint32\-\_\-t {\bfseries add\-Task\-Node} ()}\label{classflowlessly_1_1Graph_ae0188e508ea5ecf9b11600f75b1db8b6}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_ab8c5af13f9568692a8ab000371ff91c9}{uint32\-\_\-t {\bfseries add\-Node} (int32\-\_\-t node\-\_\-demand, int64\-\_\-t node\-\_\-potential, const vector$<$ \hyperlink{classflowlessly_1_1Arc}{\-Arc} $\ast$ $>$ \&arcs\-\_\-from\-\_\-node)}\label{classflowlessly_1_1Graph_ab8c5af13f9568692a8ab000371ff91c9}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_aa1edd4831228dac2e4da8a4d9aadcb04}{uint32\-\_\-t {\bfseries remove\-Task\-Node} ()}\label{classflowlessly_1_1Graph_aa1edd4831228dac2e4da8a4d9aadcb04}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a1faca558ebb7f1ee4c2dea2bdbb0bcda}{bool {\bfseries remove\-Task\-Node} (uint32\-\_\-t node\-\_\-id)}\label{classflowlessly_1_1Graph_a1faca558ebb7f1ee4c2dea2bdbb0bcda}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a3cbad4f3a1533e1e988b8f1c1d3487f2}{uint32\-\_\-t {\bfseries remove\-Task\-Nodes} (uint16\-\_\-t percentage)}\label{classflowlessly_1_1Graph_a3cbad4f3a1533e1e988b8f1c1d3487f2}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_afd41486784423b8befd15cfd731de02e}{uint32\-\_\-t {\bfseries change\-Arc\-Costs} (uint16\-\_\-t percentage)}\label{classflowlessly_1_1Graph_afd41486784423b8befd15cfd731de02e}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a4f3e5f3510914513dc7b4df518fe23d2}{void {\bfseries remove\-Node\-From\-Fixed\-Arcs} (uint32\-\_\-t node\-\_\-id)}\label{classflowlessly_1_1Graph_a4f3e5f3510914513dc7b4df518fe23d2}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a9fccb6382a338b6edf268d62abe5f2f2}{void {\bfseries remove\-Arcs} (uint32\-\_\-t node\-\_\-id)}\label{classflowlessly_1_1Graph_a9fccb6382a338b6edf268d62abe5f2f2}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_abc9a7c307852aed252865201f27b8515}{int64\-\_\-t {\bfseries generate\-Arc\-Cost} ()}\label{classflowlessly_1_1Graph_abc9a7c307852aed252865201f27b8515}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_ac27e3f9a0c8a2b6bac354f7b5a4595e8}{uint32\-\_\-t {\bfseries generate\-Resource\-Node\-Id} ()}\label{classflowlessly_1_1Graph_ac27e3f9a0c8a2b6bac354f7b5a4595e8}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_aa31d4c0e70c3d114bd29677cd8806653}{void {\bfseries node\-Arcs\-Fixing} (uint32\-\_\-t node\-\_\-id, int64\-\_\-t fix\-\_\-threshold)}\label{classflowlessly_1_1Graph_aa31d4c0e70c3d114bd29677cd8806653}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a45f3b9a73e7a291cc5c930dad28dbfd1}{void {\bfseries arcs\-Fixing} (int64\-\_\-t fix\-\_\-threshold)}\label{classflowlessly_1_1Graph_a45f3b9a73e7a291cc5c930dad28dbfd1}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_ab0668cf590fb66e153da80a9cff0f8a0}{void {\bfseries arcs\-Unfixing} (int64\-\_\-t fix\-\_\-threshold)}\label{classflowlessly_1_1Graph_ab0668cf590fb66e153da80a9cff0f8a0}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_af5e993b70dcdbdfc180bb8dfaef0cc6b}{bool {\bfseries order\-Topologically} (vector$<$ uint32\-\_\-t $>$ \&ordered)}\label{classflowlessly_1_1Graph_af5e993b70dcdbdfc180bb8dfaef0cc6b}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_ab40c3233792f830f1eecef711cb6f570}{int64\-\_\-t {\bfseries scale\-Up\-Costs} (int64\-\_\-t scale\-\_\-up)}\label{classflowlessly_1_1Graph_ab40c3233792f830f1eecef711cb6f570}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_a7b03cb9ecbe2a962fba0304f4c379177}{void {\bfseries scale\-Down\-Costs} (int64\-\_\-t scale\-\_\-down)}\label{classflowlessly_1_1Graph_a7b03cb9ecbe2a962fba0304f4c379177}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_ab20a702a47cd79a6960662303aa0f8b8}{int64\-\_\-t {\bfseries get\-\_\-refine\-\_\-potential} (uint64\-\_\-t node\-\_\-id, int64\-\_\-t eps)}\label{classflowlessly_1_1Graph_ab20a702a47cd79a6960662303aa0f8b8}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_af32b31ea87c3641e67525c18733fc4a1}{void {\bfseries reset\-Potentials} ()}\label{classflowlessly_1_1Graph_af32b31ea87c3641e67525c18733fc4a1}
+
+\item 
+\hypertarget{classflowlessly_1_1Graph_af9798efb566421f6a2c0ce0eb4f89e23}{void {\bfseries reset\-Graph} ()}\label{classflowlessly_1_1Graph_af9798efb566421f6a2c0ce0eb4f89e23}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classflowlessly_1_1Graph_ab8f10dc0cfb341e62b36c8933fd34206}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!\-Graph@{\-Graph}}
+\index{\-Graph@{\-Graph}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}{\bf flowlessly\-::\-Graph\-::\-Graph} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Statistics} \&}]{stats}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classflowlessly_1_1Graph_ab8f10dc0cfb341e62b36c8933fd34206}
+\-Constructs a graph. \-It assumes that the cluster aggregator node has id 1 and that the sink node has id 2. 
+\begin{DoxyParams}{\-Parameters}
+{\em stats} & the object into which to store statistics \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classflowlessly_1_1Graph_af250c51c274e3e6abefe5dbf4129e187}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!add\-Sink\-And\-Source@{add\-Sink\-And\-Source}}
+\index{add\-Sink\-And\-Source@{add\-Sink\-And\-Source}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{add\-Sink\-And\-Source}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf flowlessly\-::\-Graph\-::add\-Sink\-And\-Source} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_af250c51c274e3e6abefe5dbf4129e187}
+\-Add single source and sink nodes. \-The source will have id num\-\_\-nodes and the sink will have id num\-\_\-nodes + 1. \hypertarget{classflowlessly_1_1Graph_a3ad531de1b848126c46bbf986b6c2f2b}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!check\-Eps\-Optimality@{check\-Eps\-Optimality}}
+\index{check\-Eps\-Optimality@{check\-Eps\-Optimality}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{check\-Eps\-Optimality}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf flowlessly\-::\-Graph\-::check\-Eps\-Optimality} (
+\begin{DoxyParamCaption}
+\item[{int64\-\_\-t}]{eps}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_a3ad531de1b848126c46bbf986b6c2f2b}
+\-Check epsilon optimality of the flow graph. \-A flow graph is \-Eps-\/optimal if there is no arc with capacity $>$ 0 and cost + potential\mbox{[}src\-\_\-vertex\-\_\-id\mbox{]} -\/ potential\mbox{[}dst\-\_\-vertex\-\_\-id\mbox{]} $<$ -\/eps. 
+\begin{DoxyParams}{\-Parameters}
+{\em eps} & \-Epsilon \\
+\hline
+\end{DoxyParams}
+\hypertarget{classflowlessly_1_1Graph_ad23662b6dc5949274015b2b351208a4f}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!check\-Equal@{check\-Equal}}
+\index{check\-Equal@{check\-Equal}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{check\-Equal}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf flowlessly\-::\-Graph\-::check\-Equal} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Graph} \&}]{other}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_ad23662b6dc5949274015b2b351208a4f}
+\-Checks if two graphs are equal. \hypertarget{classflowlessly_1_1Graph_aa3da1f87177c687ee1465356f187e238}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!check\-Flow@{check\-Flow}}
+\index{check\-Flow@{check\-Flow}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{check\-Flow}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf flowlessly\-::\-Graph\-::check\-Flow} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{flow\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_aa3da1f87177c687ee1465356f187e238}
+\-Checks if the graph flow is valid. \-It checks if all the demand is satisfied. \-N\-O\-T\-E\-: \-It does not check if the flow is the min cost flow. 
+\begin{DoxyParams}{\-Parameters}
+{\em flow\-\_\-file} & the file storing the flow graph \\
+\hline
+\end{DoxyParams}
+\hypertarget{classflowlessly_1_1Graph_ad07412381c17777348eabf31801d7877}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!check\-Valid@{check\-Valid}}
+\index{check\-Valid@{check\-Valid}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{check\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf flowlessly\-::\-Graph\-::check\-Valid} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_ad07412381c17777348eabf31801d7877}
+\-Checks if the graph is valid. \-It performes the following checks\-: 1) capacity $<$= initial capacity for every arc 2) flow = reverse\-\_\-flow for every arc 3) total demand is 0 \hypertarget{classflowlessly_1_1Graph_add8d90cc2601bdab3e623c548d77a84d}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!has\-Sink\-And\-Source@{has\-Sink\-And\-Source}}
+\index{has\-Sink\-And\-Source@{has\-Sink\-And\-Source}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{has\-Sink\-And\-Source}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf flowlessly\-::\-Graph\-::has\-Sink\-And\-Source} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_add8d90cc2601bdab3e623c548d77a84d}
+\-Check if the graph has single source and single sink. \hypertarget{classflowlessly_1_1Graph_a00102825c05a2f8218c702fa8d215e1f}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!read\-Graph@{read\-Graph}}
+\index{read\-Graph@{read\-Graph}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{read\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf flowlessly\-::\-Graph\-::read\-Graph} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{graph\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_a00102825c05a2f8218c702fa8d215e1f}
+\-Read a graph in the \-D\-I\-M\-A\-C\-S format. 
+\begin{DoxyParams}{\-Parameters}
+{\em graph\-\_\-file} & the file to read the graph from \\
+\hline
+\end{DoxyParams}
+\hypertarget{classflowlessly_1_1Graph_a1794e96397b2ae9ea8d6a7bd4a7aa79b}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!remove\-Sink\-And\-Source@{remove\-Sink\-And\-Source}}
+\index{remove\-Sink\-And\-Source@{remove\-Sink\-And\-Source}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{remove\-Sink\-And\-Source}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf flowlessly\-::\-Graph\-::remove\-Sink\-And\-Source} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_a1794e96397b2ae9ea8d6a7bd4a7aa79b}
+\-Remove added source and sink nodes. \begin{DoxyReturn}{\-Returns}
+true if the source and sink have succesfully been removed. 
+\end{DoxyReturn}
+\hypertarget{classflowlessly_1_1Graph_a009b8c032eeb3c5cdd9f8985461329f1}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!write\-Flow\-Graph@{write\-Flow\-Graph}}
+\index{write\-Flow\-Graph@{write\-Flow\-Graph}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{write\-Flow\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf flowlessly\-::\-Graph\-::write\-Flow\-Graph} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{out\-\_\-graph\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_a009b8c032eeb3c5cdd9f8985461329f1}
+\-Writes the flow graph to a file. \-It writes it in a format similar to \-D\-I\-M\-A\-C\-S. \-Every flow arc is represented as f src\-\_\-vertex\-\_\-id dst\-\_\-vertex\-\_\-id flow. 
+\begin{DoxyParams}{\-Parameters}
+{\em out\-\_\-graph\-\_\-file} & the file to write the flow graph to \\
+\hline
+\end{DoxyParams}
+\hypertarget{classflowlessly_1_1Graph_aff0bd13f59bf394ddd6a8137fc1c92e0}{\index{flowlessly\-::\-Graph@{flowlessly\-::\-Graph}!write\-Graph@{write\-Graph}}
+\index{write\-Graph@{write\-Graph}!flowlessly::Graph@{flowlessly\-::\-Graph}}
+\subsubsection[{write\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf flowlessly\-::\-Graph\-::write\-Graph} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{out\-\_\-graph\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{classflowlessly_1_1Graph_aff0bd13f59bf394ddd6a8137fc1c92e0}
+\-Writes the graph to a file. \-It writes the graph in the \-D\-I\-M\-A\-C\-S format. 
+\begin{DoxyParams}{\-Parameters}
+{\em out\-\_\-graph\-\_\-file} & the file to write the graph to \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+graph.\-h\item 
+graph.\-cc\end{DoxyCompactItemize}
