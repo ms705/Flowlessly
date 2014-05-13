@@ -30,7 +30,7 @@
    <div id="projectname">Flowlessly
    &#160;<span id="projectnumber">0.1</span>
    </div>
-   
+   <div id="projectbrief">Minimum cost maximum cost solver</div>
   </td>
   
   
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -85,31 +86,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00005"></a>00005 
 <a name="l00006"></a>00006 <span class="keyword">namespace </span>flowlessly {
 <a name="l00007"></a>00007 
-<a name="l00008"></a><a class="code" href="classflowlessly_1_1SuccessiveShortest.html">00008</a>   <span class="keyword">class </span><a class="code" href="classflowlessly_1_1SuccessiveShortest.html">SuccessiveShortest</a> {
-<a name="l00009"></a>00009 
-<a name="l00010"></a>00010   <span class="keyword">public</span>:
-<a name="l00011"></a>00011   <a class="code" href="classflowlessly_1_1SuccessiveShortest.html">SuccessiveShortest</a>(<a class="code" href="classflowlessly_1_1Graph.html">Graph</a>&amp; graph): graph_(graph) {
-<a name="l00012"></a>00012     }
-<a name="l00013"></a>00013 
-<a name="l00014"></a>00014     <span class="keywordtype">void</span> successiveShortestPath();
-<a name="l00015"></a>00015     <span class="keywordtype">void</span> successiveShortestPathPotentials();
+<a name="l00011"></a><a class="code" href="classflowlessly_1_1SuccessiveShortest.html">00011</a>   <span class="keyword">class </span><a class="code" href="classflowlessly_1_1SuccessiveShortest.html">SuccessiveShortest</a> {
+<a name="l00012"></a>00012 
+<a name="l00013"></a>00013   <span class="keyword">public</span>:
+<a name="l00014"></a>00014   <a class="code" href="classflowlessly_1_1SuccessiveShortest.html">SuccessiveShortest</a>(<a class="code" href="classflowlessly_1_1Graph.html">Graph</a>&amp; graph): graph_(graph) {
+<a name="l00015"></a>00015     }
 <a name="l00016"></a>00016 
-<a name="l00017"></a>00017   <span class="keyword">private</span>:
-<a name="l00018"></a>00018     <a class="code" href="classflowlessly_1_1Graph.html">Graph</a>&amp; graph_;
-<a name="l00019"></a>00019 
-<a name="l00020"></a>00020     <span class="keywordtype">void</span> reduceCost(<span class="keyword">const</span> vector&lt;int64_t&gt;&amp; distance);
-<a name="l00021"></a>00021 
-<a name="l00022"></a>00022   };
+<a name="l00022"></a>00022     <span class="keywordtype">void</span> <a class="code" href="classflowlessly_1_1SuccessiveShortest.html#a4d81fd9df78f1b028cd5c1ba69d64bad">successiveShortestPath</a>();
 <a name="l00023"></a>00023 
-<a name="l00024"></a>00024 }
-<a name="l00025"></a>00025 <span class="preprocessor">#endif</span>
+<a name="l00029"></a>00029     <span class="keywordtype">void</span> <a class="code" href="classflowlessly_1_1SuccessiveShortest.html#a72727023355580f6a863df381bcbbe90">successiveShortestPathPotentials</a>();
+<a name="l00030"></a>00030 
+<a name="l00031"></a>00031   <span class="keyword">private</span>:
+<a name="l00032"></a>00032     <a class="code" href="classflowlessly_1_1Graph.html">Graph</a>&amp; graph_;
+<a name="l00033"></a>00033 
+<a name="l00034"></a>00034     <span class="keywordtype">void</span> reduceCost(<span class="keyword">const</span> vector&lt;int64_t&gt;&amp; distance);
+<a name="l00035"></a>00035 
+<a name="l00036"></a>00036   };
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038 }
+<a name="l00039"></a>00039 <span class="preprocessor">#endif</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -121,7 +123,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 13 2014 15:00:38 for Flowlessly by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 13 2014 17:18:23 for Flowlessly by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

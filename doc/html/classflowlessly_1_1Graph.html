@@ -30,7 +30,7 @@
    <div id="projectname">Flowlessly
    &#160;<span id="projectnumber">0.1</span>
    </div>
-   
+   <div id="projectbrief">Minimum cost maximum cost solver</div>
   </td>
   
   
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -79,7 +80,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -90,7 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
   <div id="nav-path" class="navpath">
     <ul>
-      <li class="navelem"><b>flowlessly</b>      </li>
+      <li class="navelem"><a class="el" href="namespaceflowlessly.html">flowlessly</a>      </li>
       <li class="navelem"><a class="el" href="classflowlessly_1_1Graph.html">Graph</a>      </li>
     </ul>
   </div>
@@ -140,46 +141,21 @@ set&lt; uint32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#add8d90cc2601bdab3e623c548d77a84d">hasSinkAndSource</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#a1794e96397b2ae9ea8d6a7bd4a7aa79b">removeSinkAndSource</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#af250c51c274e3e6abefe5dbf4129e187">addSinkAndSource</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d694b81e253af711a36419880255521"></a><!-- doxytag: member="flowlessly::Graph::removeNode" ref="a6d694b81e253af711a36419880255521" args="(uint32_t node_id)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removeNode</b> (uint32_t node_id)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0188e508ea5ecf9b11600f75b1db8b6"></a><!-- doxytag: member="flowlessly::Graph::addTaskNode" ref="ae0188e508ea5ecf9b11600f75b1db8b6" args="()" -->
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>addTaskNode</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8c5af13f9568692a8ab000371ff91c9"></a><!-- doxytag: member="flowlessly::Graph::addNode" ref="ab8c5af13f9568692a8ab000371ff91c9" args="(int32_t node_demand, int64_t node_potential, const vector&lt; Arc * &gt; &amp;arcs_from_node)" -->
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>addNode</b> (int32_t node_demand, int64_t node_potential, const vector&lt; <a class="el" href="classflowlessly_1_1Arc.html">Arc</a> * &gt; &amp;arcs_from_node)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1edd4831228dac2e4da8a4d9aadcb04"></a><!-- doxytag: member="flowlessly::Graph::removeTaskNode" ref="aa1edd4831228dac2e4da8a4d9aadcb04" args="()" -->
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>removeTaskNode</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1faca558ebb7f1ee4c2dea2bdbb0bcda"></a><!-- doxytag: member="flowlessly::Graph::removeTaskNode" ref="a1faca558ebb7f1ee4c2dea2bdbb0bcda" args="(uint32_t node_id)" -->
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>removeTaskNode</b> (uint32_t node_id)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3cbad4f3a1533e1e988b8f1c1d3487f2"></a><!-- doxytag: member="flowlessly::Graph::removeTaskNodes" ref="a3cbad4f3a1533e1e988b8f1c1d3487f2" args="(uint16_t percentage)" -->
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>removeTaskNodes</b> (uint16_t percentage)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd41486784423b8befd15cfd731de02e"></a><!-- doxytag: member="flowlessly::Graph::changeArcCosts" ref="afd41486784423b8befd15cfd731de02e" args="(uint16_t percentage)" -->
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>changeArcCosts</b> (uint16_t percentage)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f3e5f3510914513dc7b4df518fe23d2"></a><!-- doxytag: member="flowlessly::Graph::removeNodeFromFixedArcs" ref="a4f3e5f3510914513dc7b4df518fe23d2" args="(uint32_t node_id)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removeNodeFromFixedArcs</b> (uint32_t node_id)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fccb6382a338b6edf268d62abe5f2f2"></a><!-- doxytag: member="flowlessly::Graph::removeArcs" ref="a9fccb6382a338b6edf268d62abe5f2f2" args="(uint32_t node_id)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removeArcs</b> (uint32_t node_id)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc9a7c307852aed252865201f27b8515"></a><!-- doxytag: member="flowlessly::Graph::generateArcCost" ref="abc9a7c307852aed252865201f27b8515" args="()" -->
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>generateArcCost</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac27e3f9a0c8a2b6bac354f7b5a4595e8"></a><!-- doxytag: member="flowlessly::Graph::generateResourceNodeId" ref="ac27e3f9a0c8a2b6bac354f7b5a4595e8" args="()" -->
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>generateResourceNodeId</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa31d4c0e70c3d114bd29677cd8806653"></a><!-- doxytag: member="flowlessly::Graph::nodeArcsFixing" ref="aa31d4c0e70c3d114bd29677cd8806653" args="(uint32_t node_id, int64_t fix_threshold)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>nodeArcsFixing</b> (uint32_t node_id, int64_t fix_threshold)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45f3b9a73e7a291cc5c930dad28dbfd1"></a><!-- doxytag: member="flowlessly::Graph::arcsFixing" ref="a45f3b9a73e7a291cc5c930dad28dbfd1" args="(int64_t fix_threshold)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>arcsFixing</b> (int64_t fix_threshold)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0668cf590fb66e153da80a9cff0f8a0"></a><!-- doxytag: member="flowlessly::Graph::arcsUnfixing" ref="ab0668cf590fb66e153da80a9cff0f8a0" args="(int64_t fix_threshold)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>arcsUnfixing</b> (int64_t fix_threshold)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5e993b70dcdbdfc180bb8dfaef0cc6b"></a><!-- doxytag: member="flowlessly::Graph::orderTopologically" ref="af5e993b70dcdbdfc180bb8dfaef0cc6b" args="(vector&lt; uint32_t &gt; &amp;ordered)" -->
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>orderTopologically</b> (vector&lt; uint32_t &gt; &amp;ordered)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab40c3233792f830f1eecef711cb6f570"></a><!-- doxytag: member="flowlessly::Graph::scaleUpCosts" ref="ab40c3233792f830f1eecef711cb6f570" args="(int64_t scale_up)" -->
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>scaleUpCosts</b> (int64_t scale_up)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b03cb9ecbe2a962fba0304f4c379177"></a><!-- doxytag: member="flowlessly::Graph::scaleDownCosts" ref="a7b03cb9ecbe2a962fba0304f4c379177" args="(int64_t scale_down)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>scaleDownCosts</b> (int64_t scale_down)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab20a702a47cd79a6960662303aa0f8b8"></a><!-- doxytag: member="flowlessly::Graph::get_refine_potential" ref="ab20a702a47cd79a6960662303aa0f8b8" args="(uint64_t node_id, int64_t eps)" -->
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>get_refine_potential</b> (uint64_t node_id, int64_t eps)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af32b31ea87c3641e67525c18733fc4a1"></a><!-- doxytag: member="flowlessly::Graph::resetPotentials" ref="af32b31ea87c3641e67525c18733fc4a1" args="()" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>resetPotentials</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9798efb566421f6a2c0ce0eb4f89e23"></a><!-- doxytag: member="flowlessly::Graph::resetGraph" ref="af9798efb566421f6a2c0ce0eb4f89e23" args="()" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#a4fd4e7a4ec7b204ef6bfe4c17b8bc81b">removeNode</a> (uint32_t node_id)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#ae0188e508ea5ecf9b11600f75b1db8b6">addTaskNode</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#ab8c5af13f9568692a8ab000371ff91c9">addNode</a> (int32_t node_demand, int64_t node_potential, const vector&lt; <a class="el" href="classflowlessly_1_1Arc.html">Arc</a> * &gt; &amp;arcs_from_node)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#aa1edd4831228dac2e4da8a4d9aadcb04">removeTaskNode</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#a1faca558ebb7f1ee4c2dea2bdbb0bcda">removeTaskNode</a> (uint32_t node_id)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#a3cbad4f3a1533e1e988b8f1c1d3487f2">removeTaskNodes</a> (uint16_t percentage)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#afd41486784423b8befd15cfd731de02e">changeArcCosts</a> (uint16_t percentage)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#a45f3b9a73e7a291cc5c930dad28dbfd1">arcsFixing</a> (int64_t fix_threshold)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#ad0de856742612c03a38d3953dd7eb74f">arcsUnfixing</a> (int64_t unfix_threshold)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#af5e993b70dcdbdfc180bb8dfaef0cc6b">orderTopologically</a> (vector&lt; uint32_t &gt; &amp;ordered)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#ab40c3233792f830f1eecef711cb6f570">scaleUpCosts</a> (int64_t scale_up)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#a7b03cb9ecbe2a962fba0304f4c379177">scaleDownCosts</a> (int64_t scale_down)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#ab20a702a47cd79a6960662303aa0f8b8">get_refine_potential</a> (uint64_t node_id, int64_t eps)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#af32b31ea87c3641e67525c18733fc4a1">resetPotentials</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classflowlessly_1_1Graph.html#af9798efb566421f6a2c0ce0eb4f89e23">resetGraph</a> ()</td></tr>
 </table>
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab8f10dc0cfb341e62b36c8933fd34206"></a><!-- doxytag: member="flowlessly::Graph::Graph" ref="ab8f10dc0cfb341e62b36c8933fd34206" args="(Statistics &amp;stats)" -->
@@ -207,6 +183,49 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="ab8c5af13f9568692a8ab000371ff91c9"></a><!-- doxytag: member="flowlessly::Graph::addNode" ref="ab8c5af13f9568692a8ab000371ff91c9" args="(int32_t node_demand, int64_t node_potential, const vector&lt; Arc * &gt; &amp;arcs_from_node)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t <a class="el" href="classflowlessly_1_1Graph.html#ab8c5af13f9568692a8ab000371ff91c9">flowlessly::Graph::addNode</a> </td>
+          <td>(</td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>node_demand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>node_potential</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector&lt; <a class="el" href="classflowlessly_1_1Arc.html">Arc</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arcs_from_node</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Adds a new node to the graph. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node_demand</td><td>the demand of the new node </td></tr>
+    <tr><td class="paramname">node_potential</td><td>the potential of the new node </td></tr>
+    <tr><td class="paramname">arcs_from_node</td><td>outgoing arcs from the node </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the id of the new node </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="af250c51c274e3e6abefe5dbf4129e187"></a><!-- doxytag: member="flowlessly::Graph::addSinkAndSource" ref="af250c51c274e3e6abefe5dbf4129e187" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +239,98 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
       </table>
 </div>
 <div class="memdoc">
-<p>Add single source and sink nodes. The source will have id num_nodes and the sink will have id num_nodes + 1. </p>
+<p>Adds single source and sink nodes. The source will have id num_nodes and the sink will have id num_nodes + 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae0188e508ea5ecf9b11600f75b1db8b6"></a><!-- doxytag: member="flowlessly::Graph::addTaskNode" ref="ae0188e508ea5ecf9b11600f75b1db8b6" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t <a class="el" href="classflowlessly_1_1Graph.html#ae0188e508ea5ecf9b11600f75b1db8b6">flowlessly::Graph::addTaskNode</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Adds a new task node to the graph. The node is connected to the aggregator node and to FLAGS_num_preference_arcs randomly selected resource nodes. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the id of the new node </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a45f3b9a73e7a291cc5c930dad28dbfd1"></a><!-- doxytag: member="flowlessly::Graph::arcsFixing" ref="a45f3b9a73e7a291cc5c930dad28dbfd1" args="(int64_t fix_threshold)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classflowlessly_1_1Graph.html#a45f3b9a73e7a291cc5c930dad28dbfd1">flowlessly::Graph::arcsFixing</a> </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>fix_threshold</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Fix arcs with a reduced cost bigger than the threshold. Fixed arcs are removed from the graph. NOTE: If the threshold is set to a value smaller than 2*n*eps then the problem may become infeasable. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fix_threshold</td><td>the fixing threshold </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad0de856742612c03a38d3953dd7eb74f"></a><!-- doxytag: member="flowlessly::Graph::arcsUnfixing" ref="ad0de856742612c03a38d3953dd7eb74f" args="(int64_t unfix_threshold)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classflowlessly_1_1Graph.html#ad0de856742612c03a38d3953dd7eb74f">flowlessly::Graph::arcsUnfixing</a> </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>unfix_threshold</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Unfix arcs with a reduced cost smaller than the threshold. Unfixed arcs are added back to the graph. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unfix_threshold</td><td>the unfixing threshold </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="afd41486784423b8befd15cfd731de02e"></a><!-- doxytag: member="flowlessly::Graph::changeArcCosts" ref="afd41486784423b8befd15cfd731de02e" args="(uint16_t percentage)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t <a class="el" href="classflowlessly_1_1Graph.html#afd41486784423b8befd15cfd731de02e">flowlessly::Graph::changeArcCosts</a> </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>percentage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Changes costs for a percentage of the arcs. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">percentage</td><td>the percentage of arcs to change cost for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the number of arcs changed </dd></dl>
 
 </div>
 </div>
@@ -307,6 +417,42 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
 
 </div>
 </div>
+<a class="anchor" id="ab20a702a47cd79a6960662303aa0f8b8"></a><!-- doxytag: member="flowlessly::Graph::get_refine_potential" ref="ab20a702a47cd79a6960662303aa0f8b8" args="(uint64_t node_id, int64_t eps)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t <a class="el" href="classflowlessly_1_1Graph.html#ab20a702a47cd79a6960662303aa0f8b8">flowlessly::Graph::get_refine_potential</a> </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>node_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>eps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Computes the maximum refine potential that can be used in a relabel operation. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node_id</td><td>the node id for which to compute the refine potential </td></tr>
+    <tr><td class="paramname">eps</td><td>current epsilon optimality value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the maximum refine potential value </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="add8d90cc2601bdab3e623c548d77a84d"></a><!-- doxytag: member="flowlessly::Graph::hasSinkAndSource" ref="add8d90cc2601bdab3e623c548d77a84d" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +466,32 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
       </table>
 </div>
 <div class="memdoc">
-<p>Check if the graph has single source and single sink. </p>
+<p>Checks if the graph has single source and single sink. </p>
+
+</div>
+</div>
+<a class="anchor" id="af5e993b70dcdbdfc180bb8dfaef0cc6b"></a><!-- doxytag: member="flowlessly::Graph::orderTopologically" ref="af5e993b70dcdbdfc180bb8dfaef0cc6b" args="(vector&lt; uint32_t &gt; &amp;ordered)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classflowlessly_1_1Graph.html#af5e993b70dcdbdfc180bb8dfaef0cc6b">flowlessly::Graph::orderTopologically</a> </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; uint32_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ordered</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Construct a topological order of the admisible grah. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ordered_nodes</td><td>vector populated with the ordered nodes </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>true if there is a valid topological order </dd></dl>
 
 </div>
 </div>
@@ -348,6 +519,31 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
 
 </div>
 </div>
+<a class="anchor" id="a4fd4e7a4ec7b204ef6bfe4c17b8bc81b"></a><!-- doxytag: member="flowlessly::Graph::removeNode" ref="a4fd4e7a4ec7b204ef6bfe4c17b8bc81b" args="(uint32_t node_id)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classflowlessly_1_1Graph.html#a4fd4e7a4ec7b204ef6bfe4c17b8bc81b">flowlessly::Graph::removeNode</a> </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>node_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes node from graph. It can not remove sink or cluster aggregator node. It does not change the number of nodes. It simply deletes all the arcs and sets the demand and potential to 0. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node_id</td><td>the id of the node to be removed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>true if the node was successfully removed </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a1794e96397b2ae9ea8d6a7bd4a7aa79b"></a><!-- doxytag: member="flowlessly::Graph::removeSinkAndSource" ref="a1794e96397b2ae9ea8d6a7bd4a7aa79b" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -361,8 +557,159 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
       </table>
 </div>
 <div class="memdoc">
-<p>Remove added source and sink nodes. </p>
+<p>Removes added source and sink nodes. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>true if the source and sink have succesfully been removed. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa1edd4831228dac2e4da8a4d9aadcb04"></a><!-- doxytag: member="flowlessly::Graph::removeTaskNode" ref="aa1edd4831228dac2e4da8a4d9aadcb04" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t <a class="el" href="classflowlessly_1_1Graph.html#aa1edd4831228dac2e4da8a4d9aadcb04">flowlessly::Graph::removeTaskNode</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes a randomly selected task node from the graph. NOTE: It does not change the number of nodes. It simply deletes all the arcs and sets the demand and potential to 0. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the id of the removed node </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1faca558ebb7f1ee4c2dea2bdbb0bcda"></a><!-- doxytag: member="flowlessly::Graph::removeTaskNode" ref="a1faca558ebb7f1ee4c2dea2bdbb0bcda" args="(uint32_t node_id)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classflowlessly_1_1Graph.html#aa1edd4831228dac2e4da8a4d9aadcb04">flowlessly::Graph::removeTaskNode</a> </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>node_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes a task node from the graph. NOTE: It does not change the number of nodes. It simply deletes all the arcs and sets the demand and potential to 0. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node_id</td><td>the id of the node to be removed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>true if the node has successfully been removed </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3cbad4f3a1533e1e988b8f1c1d3487f2"></a><!-- doxytag: member="flowlessly::Graph::removeTaskNodes" ref="a3cbad4f3a1533e1e988b8f1c1d3487f2" args="(uint16_t percentage)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t <a class="el" href="classflowlessly_1_1Graph.html#a3cbad4f3a1533e1e988b8f1c1d3487f2">flowlessly::Graph::removeTaskNodes</a> </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>percentage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes a percentage of the task nodes. NOTE: It does not change the number of nodes. It simply deletes all the arcs and sets the demand and potential to 0. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">percentage</td><td>the percentage of task nodes to remove </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the number of task nodes removed </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af9798efb566421f6a2c0ce0eb4f89e23"></a><!-- doxytag: member="flowlessly::Graph::resetGraph" ref="af9798efb566421f6a2c0ce0eb4f89e23" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classflowlessly_1_1Graph.html#af9798efb566421f6a2c0ce0eb4f89e23">flowlessly::Graph::resetGraph</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Resets the graph. It includes reseting potential, flow and demand. </p>
+
+</div>
+</div>
+<a class="anchor" id="af32b31ea87c3641e67525c18733fc4a1"></a><!-- doxytag: member="flowlessly::Graph::resetPotentials" ref="af32b31ea87c3641e67525c18733fc4a1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classflowlessly_1_1Graph.html#af32b31ea87c3641e67525c18733fc4a1">flowlessly::Graph::resetPotentials</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Resets the potential for all the nodes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7b03cb9ecbe2a962fba0304f4c379177"></a><!-- doxytag: member="flowlessly::Graph::scaleDownCosts" ref="a7b03cb9ecbe2a962fba0304f4c379177" args="(int64_t scale_down)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classflowlessly_1_1Graph.html#a7b03cb9ecbe2a962fba0304f4c379177">flowlessly::Graph::scaleDownCosts</a> </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>scale_down</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Scales down all the costs. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scale_down</td><td>scale down factor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab40c3233792f830f1eecef711cb6f570"></a><!-- doxytag: member="flowlessly::Graph::scaleUpCosts" ref="ab40c3233792f830f1eecef711cb6f570" args="(int64_t scale_up)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t <a class="el" href="classflowlessly_1_1Graph.html#ab40c3233792f830f1eecef711cb6f570">flowlessly::Graph::scaleUpCosts</a> </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>scale_up</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Scales up all the costs. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scale_up</td><td>scale up factor. It is usually alpha * num_nodes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the value from where eps should start </dd></dl>
 
 </div>
 </div>
@@ -424,7 +771,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -436,7 +783,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetGraph</b> ()</td
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 13 2014 15:00:38 for Flowlessly by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 13 2014 17:18:23 for Flowlessly by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

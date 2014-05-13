@@ -30,7 +30,7 @@
    <div id="projectname">Flowlessly
    &#160;<span id="projectnumber">0.1</span>
    </div>
-   
+   <div id="projectbrief">Minimum cost maximum cost solver</div>
   </td>
   
   
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -97,26 +98,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00017"></a>00017 
 <a name="l00018"></a>00018   <span class="keyword">using namespace </span>std;
 <a name="l00019"></a>00019 
-<a name="l00020"></a>00020   <span class="keywordtype">void</span> logCosts(<span class="keyword">const</span> vector&lt;int64_t&gt;&amp; distance,
-<a name="l00021"></a>00021                 <span class="keyword">const</span> vector&lt;uint32_t&gt;&amp; predecessor);
-<a name="l00022"></a>00022   <span class="keywordtype">void</span> maxFlow(Graph&amp; graph);
-<a name="l00023"></a>00023   <span class="keywordtype">void</span> BellmanFord(Graph&amp; graph, <span class="keyword">const</span> set&lt;uint32_t&gt;&amp; source_nodes,
-<a name="l00024"></a>00024                    vector&lt;int64_t&gt;&amp; distance, vector&lt;uint32_t&gt;&amp; predecessor);
-<a name="l00025"></a>00025   <span class="keywordtype">void</span> DijkstraSimple(Graph&amp; graph, <span class="keyword">const</span> set&lt;uint32_t&gt;&amp; source_node,
-<a name="l00026"></a>00026                       vector&lt;int64_t&gt;&amp; distance, vector&lt;uint32_t&gt;&amp; predecessor);
-<a name="l00027"></a>00027   <span class="keywordtype">void</span> DijkstraOptimized(Graph&amp; graph, <span class="keyword">const</span> set&lt;uint32_t&gt;&amp; source_node,
-<a name="l00028"></a>00028                          vector&lt;int64_t&gt;&amp; distance,
-<a name="l00029"></a>00029                          vector&lt;uint32_t&gt;&amp; predecessor);
-<a name="l00030"></a>00030 
-<a name="l00031"></a>00031 }
-<a name="l00032"></a>00032 <span class="preprocessor">#endif</span>
+<a name="l00025"></a>00025   <span class="keywordtype">void</span> <a class="code" href="namespaceflowlessly.html#a1c7f2332cd1e17ff189ee253ed888873">logCosts</a>(<span class="keyword">const</span> vector&lt;int64_t&gt;&amp; distance,
+<a name="l00026"></a>00026                 <span class="keyword">const</span> vector&lt;uint32_t&gt;&amp; predecessor);
+<a name="l00027"></a>00027 
+<a name="l00034"></a>00034   <span class="keywordtype">void</span> <a class="code" href="namespaceflowlessly.html#a4f9ed880c098a8f276c785bec41ad2bc">maxFlow</a>(Graph&amp; graph);
+<a name="l00035"></a>00035 
+<a name="l00043"></a>00043   <span class="keywordtype">void</span> <a class="code" href="namespaceflowlessly.html#a2e98ebb7989ff7e89e2ef7cefe78875b">BellmanFord</a>(Graph&amp; graph, <span class="keyword">const</span> set&lt;uint32_t&gt;&amp; source_nodes,
+<a name="l00044"></a>00044                    vector&lt;int64_t&gt;&amp; distance, vector&lt;uint32_t&gt;&amp; predecessor);
+<a name="l00045"></a>00045 
+<a name="l00054"></a>00054   <span class="keywordtype">void</span> <a class="code" href="namespaceflowlessly.html#aa1247b2c7f532a4c867866a8080caa07">DijkstraSimple</a>(Graph&amp; graph, <span class="keyword">const</span> set&lt;uint32_t&gt;&amp; source_node,
+<a name="l00055"></a>00055                       vector&lt;int64_t&gt;&amp; distance, vector&lt;uint32_t&gt;&amp; predecessor);
+<a name="l00056"></a>00056 
+<a name="l00065"></a>00065   <span class="keywordtype">void</span> <a class="code" href="namespaceflowlessly.html#a1cbddd0c976ba6a34207cc2ebc17a87a">DijkstraOptimized</a>(Graph&amp; graph, <span class="keyword">const</span> set&lt;uint32_t&gt;&amp; source_node,
+<a name="l00066"></a>00066                          vector&lt;int64_t&gt;&amp; distance,
+<a name="l00067"></a>00067                          vector&lt;uint32_t&gt;&amp; predecessor);
+<a name="l00068"></a>00068 
+<a name="l00069"></a>00069 }
+<a name="l00070"></a>00070 <span class="preprocessor">#endif</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,7 +133,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 13 2014 15:00:38 for Flowlessly by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 13 2014 17:18:23 for Flowlessly by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
